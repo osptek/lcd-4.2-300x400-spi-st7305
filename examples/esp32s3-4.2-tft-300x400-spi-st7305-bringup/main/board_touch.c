@@ -125,6 +125,7 @@ esp_err_t board_touch_read_raw_points(ft3269_touch_point_t *points,
 
 #else /* !BOARD_ENABLE_TOUCH */
 
+#include "board_touch_priv.h"
 #include "esp_log.h"
 
 static const char *TAG = "board_touch";

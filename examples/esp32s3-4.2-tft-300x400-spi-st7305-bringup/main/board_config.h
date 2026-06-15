@@ -3,7 +3,7 @@
 #include "driver/gpio.h"
 
 /* 1=启用 FT3269 触摸与画点演示，0=仅 LCD */
-#define BOARD_ENABLE_TOUCH        (1)
+#define BOARD_ENABLE_TOUCH        (0)
 
 #define BOARD_LCD_H_RES           (400)
 #define BOARD_LCD_V_RES           (300)

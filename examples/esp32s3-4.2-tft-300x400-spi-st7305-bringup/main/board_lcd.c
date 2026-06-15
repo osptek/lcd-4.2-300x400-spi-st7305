@@ -9,6 +9,8 @@
 
 static const char *TAG = "board_lcd";
 
+#if BOARD_LCD_PATTERN_CYCLE || BOARD_ENABLE_TOUCH
+
 static void draw_full_checkerboard(uint8_t cell)
 {
     const uint16_t w = BOARD_LCD_H_RES;
@@ -114,6 +116,8 @@ static void render_pattern(lcd_pattern_t p)
         break;
     }
 }
+
+#endif /* BOARD_LCD_PATTERN_CYCLE || BOARD_ENABLE_TOUCH */
 
 #if BOARD_LCD_PATTERN_CYCLE
 static void pattern_cycle_task(void *arg)

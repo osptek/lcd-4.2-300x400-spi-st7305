@@ -47,6 +47,7 @@
 <p align="center"><img alt="YDP420HT004-V3" src="./images/YDP420HT004-V3.png" width="320" /></p>
 
 **说明：** 带触摸（FT3269）。
+
 ---
 
 ## 如何切换分支

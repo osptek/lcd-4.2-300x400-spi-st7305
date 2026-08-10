@@ -47,6 +47,7 @@ Repo id: `4.2-lcd-300x400-spi-st7305`
 <p align="center"><img alt="YDP420HT004-V3" src="./images/YDP420HT004-V3.png" width="320" /></p>
 
 **Notes:** With touch (FT3269).
+
 ---
 
 ## How to Switch Branches

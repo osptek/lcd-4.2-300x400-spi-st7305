@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 4.2″ LCD 300×400 (ST7305 · SPI)</h1>
 
-<p align="center"><b>Reflective LCD · SPI · ST7305</b></p>
+<p align="center"><b>LCD module · SPI · ST7305 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 4.2 inch" src="https://img.shields.io/badge/Size-4.2%22-3498DB?style=flat-square" />
@@ -13,83 +13,61 @@
   <img alt="Driver: ST7305" src="https://img.shields.io/badge/Driver-ST7305-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 4.2″ 300×400 reflective LCD SPI module (ST7305) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP420HT004-V3](#ydp420ht004-v3)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **4.2″ 300×400 reflective LCD** is a **SPI** monochrome display module driven by **ST7305**, with touch driven by **FT3269**. Suited to low-power instruments, labels, and outdoor-readable UIs.
+This repository holds materials for the **4.2″ 300×400 LCD (SPI · ST7305)** module family.
 
-Spec ID (repository name): `4.2-lcd-300x400-spi-st7305`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP420HT004-V3**. Electrical and mechanical details follow [`docs/YDP420HT004-V3_外形图.pdf`](./docs/YDP420HT004-V3_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) and the driver IC datasheet.
+Repo id: `4.2-lcd-300x400-spi-st7305`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 4.2 inch |
-| Type | Reflective LCD (monochrome) |
-| Resolution | 300×400 |
-| Interface | SPI |
-| Driver IC | ST7305 |
-| Touch driver | FT3269 |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP420HT004-V3 | <img alt="YDP420HT004-V3" src="./images/YDP420HT004-V3.png" width="120" /> | [Details](#ydp420ht004-v3) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-S3 · ST7305 SPI bring-up (optional FT3269 touch draw-dot) | [`examples/esp32s3-4.2-tft-300x400-spi-st7305-bringup/`](./examples/esp32s3-4.2-tft-300x400-spi-st7305-bringup/) |
+## YDP420HT004-V3
 
-## Repository layout
+<p align="center"><img alt="YDP420HT004-V3" src="./images/YDP420HT004-V3.png" width="320" /></p>
 
-```text
-4.2-lcd-300x400-spi-st7305/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # outline drawing, datasheets, adapter board, etc.
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## How to Switch Branches
 
-| Resource | Link |
-| ---- | ---- |
-| Outline drawing (YDP420HT004-V3) | [`docs/YDP420HT004-V3_外形图.pdf`](./docs/YDP420HT004-V3_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
-| Driver IC datasheet (ST7305) | [`docs/ST_7305_V0_2_d0b99d9cdb.pdf`](./docs/ST_7305_V0_2_d0b99d9cdb.pdf) |
-| 2.9 / 4.2″ TP combo adapter board schematic | [`docs/SCH_2.9&4.2TP二合一转接板.pdf`](./docs/SCH_2.9%264.2TP%E4%BA%8C%E5%90%88%E4%B8%80%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-S3 ST7305 SPI bring-up](./examples/esp32s3-4.2-tft-300x400-spi-st7305-bringup/)
+---
 
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -97,13 +75,15 @@ Current module version: **YDP420HT004-V3**. Electrical and mechanical details fo
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>

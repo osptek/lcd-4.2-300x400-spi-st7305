@@ -6,6 +6,7 @@ panel: lcd
 resolution: 300x400
 interface: [spi]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP420HT004-V3

@@ -13,3 +13,7 @@ versions:
     driver: ST7305
     touch: FT3269
     note: none
+  - id: YDP420H001-V3
+    driver: ST7305
+    touch: none
+    note: 4-line SPI, no touch

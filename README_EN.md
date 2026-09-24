@@ -18,6 +18,7 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP420HT004-V3](#ydp420ht004-v3)
+- [YDP420H001-V3](#ydp420h001-v3)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -37,6 +38,7 @@ Repo id: `lcd-4.2-300x400-spi-st7305`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
+| YDP420H001-V3 | <img alt="YDP420H001-V3" src="./versions/YDP420H001-V3/images/product.png" width="120" /> | [Summary](#ydp420h001-v3) | [Full docs](./versions/YDP420H001-V3/) |
 | YDP420HT004-V3 | <img alt="YDP420HT004-V3" src="./versions/YDP420HT004-V3/images/product.png" width="120" /> | [Summary](#ydp420ht004-v3) | [Full docs](./versions/YDP420HT004-V3/) |
 
 ---
@@ -48,6 +50,16 @@ Repo id: `lcd-4.2-300x400-spi-st7305`
 **Notes:** With touch (FT3269).
 
 Full product page, datasheets, and examples: [versions/YDP420HT004-V3/](./versions/YDP420HT004-V3/)
+
+---
+
+## YDP420H001-V3
+
+<p align="center"><img alt="YDP420H001-V3" src="./versions/YDP420H001-V3/images/product.png" width="320" /></p>
+
+**Notes:** 4-line SPI, no touch.
+
+Full product page, datasheets, and examples: [versions/YDP420H001-V3/](./versions/YDP420H001-V3/)
 
 ---
 
